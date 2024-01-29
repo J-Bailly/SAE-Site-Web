@@ -1,9 +1,9 @@
-header nav{
-    margin: 0px;
+header > h1{
+    text-align: center;
 }
 
-header h1{
-    text-align: center;
+header nav{
+    margin: 0px;
 }
 
 
@@ -21,6 +21,10 @@ header li{
     flex-grow: 1;
 }
 
+#acceuil{
+    background-color: lightgray;
+}
+
 main {
     display: flex;
     flex-wrap: nowrap;
@@ -28,6 +32,7 @@ main {
 
 article{
     flex-grow: 1;
+    flex-basis: 70%;
 }
 
 
