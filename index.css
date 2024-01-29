@@ -1,29 +1,46 @@
+body{
+    margin: 1px;
+}
 header > h1{
     text-align: center;
 }
 
 header nav{
     margin: 0px;
-}
-
-
-header ul{
     list-style: none;  
     display: flex;
     justify-content: space-around;
     padding: 0px;
 }
 
-header li{
-    border: 1px solid;
-    display: inline-block;
-    text-align: center;
+header a{
+    display: flex;
     flex-grow: 1;
     padding: 15px;
+    align-items: center;
+    text-align: center;
 }
 
-#acceuil{
+header a{
+    border: 1px solid;
+    text-decoration: none;
+    color: black;
+}
+
+nav img{
+    width: 2em;
+}
+
+.actuel{
     background-color: lightgray;
+}
+
+#accueil{
+    border-radius: 30px 0px 0px 30px;
+}
+
+#mixte{
+    border-radius: 0px 30px 30px 0px;
 }
 
 main {
@@ -40,18 +57,13 @@ article section{
     display: flex;
 }
 
-aside{
-    flex-basis: 30%;
-    border: 1px solid;
-    padding: 5px;
-}
-
 footer{
     display: flex;
     border: 1px solid;
     margin-top: 20px;
+    min-height: 50px;
 }
 
 footer img{
-    height: 100px;
+    height: 75px;
 }
