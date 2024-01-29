@@ -1,5 +1,7 @@
 body{
     margin: 1px;
+    background-color: #2b2b74;
+   
 }
 header > h1{
     text-align: center;
@@ -77,3 +79,11 @@ header li{
     text-align: center;
     vertical-align: middle;
 }
+
+h1, h2, p, a{
+    color: white;
+}
+body{
+    background-image: linear-gradient(to right, rgb(4, 128, 35), rgb(6, 115, 179));
+  }
+  
