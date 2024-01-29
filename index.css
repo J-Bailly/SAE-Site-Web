@@ -44,17 +44,36 @@ nav img{
 }
 
 main {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
-main article{
-    flex-grow: 1;
-    flex-basis: 70%;
+article{
+    display:flex;
+}
+
+article > img{
+    height: 15em;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 article section{
-    display: flex;
+    display: list-item;
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#droite h1, #droite ul, #droite a{
+    direction: rtl;
+}
+
+#droite p{
+    direction: ltr;
 }
 
 footer{
