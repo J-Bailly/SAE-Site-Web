@@ -19,6 +19,7 @@ header li{
     display: inline-block;
     text-align: center;
     flex-grow: 1;
+    padding: 15px;
 }
 
 #acceuil{
@@ -30,11 +31,10 @@ main {
     flex-wrap: nowrap;
 }
 
-article{
+main article{
     flex-grow: 1;
     flex-basis: 70%;
 }
-
 
 article section{
     display: flex;
@@ -47,6 +47,11 @@ aside{
 }
 
 footer{
+    display: flex;
     border: 1px solid;
     margin-top: 20px;
+}
+
+footer img{
+    height: 100px;
 }
