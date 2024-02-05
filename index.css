@@ -1,96 +1,136 @@
-body{
+body {
     margin: 1px;
-    background-color: #2b2b74;
+    background-color: lightgrey;
+}
+
+header{
+   background-color: rgb(193, 154, 107);
+   border: 1px solid;
+   justify-content: space-around;
+   border-radius: 0px 0px 30px 30px ;
 }
 header > h1{
-    text-align: center;
+   text-align: center;
 }
+
 
 header nav{
-    margin: 0px;
-    list-style: none;  
-    display: flex;
-    justify-content: space-around;
-    padding: 0px;
+   margin: 0px;
+   list-style: none; 
+   display: flex;
+   justify-content: space-around;
+   padding: 0px;
 }
 
-header a{
-    display: flex;
-    flex-grow: 1;
-    padding: 15px;
-    align-items: center;
-    text-align: center;
-}
 
 header a{
-    border: 1px solid;
-    text-decoration: none;
-    color: black;
+   display: flex;
+   flex-grow: 1;
+   padding: 15px;
+   align-items: center;
+   text-align: center;
+   background-color: rgb(234, 216, 184);
 }
+
+
+header a{
+   border: 1px solid;
+   text-decoration: none;
+   color: black;
+}
+
 
 nav img{
-    width: 2em;
+   width: 2em;
 }
+
 
 .actuel{
-    background-color: lightgray;
+   background-color:  rgb(212, 192, 158);
 }
+
 
 #accueil{
-    border-radius: 30px 0px 0px 30px;
+   border-radius: 30px 0px 0px 30px;
 }
+
 
 #mixte{
-    border-radius: 0px 30px 30px 0px;
+   border-radius: 0px 30px 30px 0px;
 }
+
 
 article{
-    display:flex;
+   display:flex;
 }
+
 
 article > img{
-    height: 30vh;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 5px 5px 10px gray;
+   height: 15em;
+   border-radius: 20px;
+   margin: 10px;
+   box-shadow: 5px 5px 10px gray;
 }
+
 
 article section{
-    display: list-item;
-    list-style-type: none;
-    border: 1px solid;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    flex-wrap: nowrap;
-    box-shadow: 5px 5px 10px gray;
+   display: list-item;
+   list-style-type: none;
+   border: 1px solid;
+   border-radius: 20px;
+   margin: 10px;
+   padding: 10px;
+   flex-wrap: nowrap;
+   box-shadow: 5px 5px 10px gray;
+   background-color: rgb(166, 166, 236);
+   flex-grow: 1;
 }
+
+
+article > section > h1{
+   color : rgb(165, 93, 42)
+}
+
+
+#droite h1, #droite ul, #droite a{
+   direction: ltr;
+}
+
+
+#droite p{
+   direction: ltr;
+}
+
 
 footer{
-    display: flex;
-    border: 1px solid;
-    margin-top: 20px;
-    min-height: 50px;
+   display: flex;
+   border: 1px solid;
+   margin-top: 20px;
+   min-height: 50px;
+   background-color: rgb(193, 154, 107)
 }
+
 
 footer img{
-    height: 100px;
+   height: 100px;
 }
+
 
 header img{
-    width: 50px;
-    height: auto;
+   width: 50px;
+   height: auto;
 }
+
 
 header li{
-    text-align: center;
-    vertical-align: middle;
+   text-align: center;
+   vertical-align: middle;
 }
 
-h1, h2, p, a, ul{
-    color: white;
+
+h1, h2, p, a{
+   color: black;
 }
-body{
-    background-image: linear-gradient(to right, rgb(4, 128, 35), rgb(6, 115, 179));
-  }
-  
+main{
+   background-color: lightgrey;
+}
