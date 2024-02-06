@@ -1,136 +1,136 @@
 body {
-    margin: 1px;
-    background-color: lightgrey;
+   margin: 1px;
+   background-color: lightgrey;
 }
 
 header{
-   background-color: rgb(193, 154, 107);
-   border: 1px solid;
-   justify-content: space-around;
-   border-radius: 0px 0px 30px 30px ;
+  background-color: rgb(193, 154, 107);
+  border: 1px solid;
+  justify-content: space-around;
+  border-radius: 0px 0px 30px 30px ;
 }
 header > h1{
-   text-align: center;
+  text-align: center;
+  color : aliceblue
 }
 
 
 header nav{
-   margin: 0px;
-   list-style: none; 
-   display: flex;
-   justify-content: space-around;
-   padding: 0px;
+  margin: 0px;
+  list-style: none; 
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
 }
 
 
 header a{
-   display: flex;
-   flex-grow: 1;
-   padding: 15px;
-   align-items: center;
-   text-align: center;
-   background-color: rgb(234, 216, 184);
+  display: flex;
+  flex-grow: 1;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(234, 216, 184);
 }
 
 
 header a{
-   border: 1px solid;
-   text-decoration: none;
-   color: black;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
 }
 
 
 nav img{
-   width: 2em;
+  width: 2em;
 }
 
 
 .actuel{
-   background-color:  rgb(212, 192, 158);
+  background-color:  rgb(212, 192, 158);
 }
 
 
 #accueil{
-   border-radius: 30px 0px 0px 30px;
+  border-radius: 30px 0px 0px 30px;
 }
 
 
 #mixte{
-   border-radius: 0px 30px 30px 0px;
+  border-radius: 0px 30px 30px 0px;
 }
 
 
 article{
-   display:flex;
+  display:flex;
 }
 
 
 article > img{
-   height: 15em;
-   border-radius: 20px;
-   margin: 10px;
-   box-shadow: 5px 5px 10px gray;
+  height: 15em;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px gray;
 }
 
 
 article section{
-   display: list-item;
-   list-style-type: none;
-   border: 1px solid;
-   border-radius: 20px;
-   margin: 10px;
-   padding: 10px;
-   flex-wrap: nowrap;
-   box-shadow: 5px 5px 10px gray;
-   background-color: rgb(166, 166, 236);
-   flex-grow: 1;
+  display: list-item;
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: nowrap;
+  box-shadow: 5px 5px 10px gray;
+  background-color: lightblue;
+  flex-grow: 1;
 }
 
 
 article > section > h1{
-   color : rgb(165, 93, 42)
+  color : rgb(165, 93, 42)
 }
 
 
 #droite h1, #droite ul, #droite a{
-   direction: ltr;
+  direction: ltr;
 }
 
 
 #droite p{
-   direction: ltr;
+  direction: ltr;
 }
 
 
 footer{
-   display: flex;
-   border: 1px solid;
-   margin-top: 20px;
-   min-height: 50px;
-   background-color: rgb(193, 154, 107)
+  display: flex;
+  border: 1px solid;
+  margin-top: 20px;
+  min-height: 50px;
+  background-color: rgb(193, 154, 107)
 }
 
 
 footer img{
-   height: 100px;
+  height: 100px;
 }
 
 
 header img{
-   width: 50px;
-   height: auto;
+  width: 50px;
+  height: auto;
 }
 
 
 header li{
-   text-align: center;
-   vertical-align: middle;
+  text-align: center;
+  vertical-align: middle;
 }
-
 
 h1, h2, p, a{
-   color: black;
+  color: black;
 }
 main{
-   background-color: lightgrey;
+  background-color: lightgrey;
 }
