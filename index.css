@@ -8,7 +8,12 @@ header{
   border: 1px solid;
   justify-content: space-around;
   border-radius: 0px 0px 30px 30px ;
+  height: 16.5vh;
+  margin-bottom: 1em;
+  position: sticky;
+  top: 0;
 }
+
 header > h1{
   text-align: center;
   color : aliceblue
@@ -61,6 +66,17 @@ nav img{
 }
 
 
+main{
+  display: flex;
+  height: 67vh;
+}
+
+
+div{
+  flex-basis: 70%;
+}
+
+
 article{
   display:flex;
 }
@@ -102,15 +118,21 @@ article > section > h1{
   direction: ltr;
 }
 
+aside{
+  flex-basis: 30%;
+  border: 1px solid;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
 
 footer{
   display: flex;
   border: 1px solid;
   margin-top: 20px;
-  min-height: 50px;
-  background-color: rgb(193, 154, 107)
+  background-color: rgb(193, 154, 107);
 }
-
 
 footer img{
   height: 100px;
