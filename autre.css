@@ -1,6 +1,7 @@
 body {
     margin: 1px;
     background-color: lightgrey;
+    font-family: "Gill Sans", sans-serif;
  }
  
  header{
@@ -77,6 +78,7 @@ body {
   border-radius: 20px;
   padding: 10px;
   background-color: lightblue;
+  font-weight: bold;
  }
  
  article{

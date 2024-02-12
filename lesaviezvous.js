@@ -1,15 +1,15 @@
 function getLeSaviezVous(){
     const titres =[
-        "Premier programmeur",
-        "Origine du terme 'bug'",
-        "Ratio de programmeurs par genre",
-        "Langages de programmation les plus populaires",
-        "Évolution des salaires",
-        "Phénomène Open Source",
-        "Cybersécurité",
-        "Télétravail",
-        "Informatique quantique",
-        "Éthique et responsabilité"
+        "Premier programmeur:",
+        "Origine du terme 'bug':",
+        "Ratio de programmeurs par genre:",
+        "Langages de programmation les plus populaires:",
+        "Évolution des salaires:",
+        "Phénomène Open Source:",
+        "Cybersécurité:",
+        "Télétravail:",
+        "Informatique quantique:",
+        "Éthique et responsabilité:"
     ];
     const textes = [
         "Ada Lovelace est souvent considérée comme la première programmeuse de l'histoire. Au 19ème siècle, elle a développé un algorithme destiné à être exécuté par la machine analytique de Charles Babbage, ce qui en fait la première à concevoir un programme informatique.",
