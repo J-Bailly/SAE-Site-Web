@@ -36,10 +36,6 @@ header a{
   align-items: center;
   text-align: center;
   background-color: rgb(234, 216, 184);
-}
-
-
-header a{
   border: 1px solid;
   text-decoration: none;
   color: black;
@@ -72,8 +68,9 @@ main{
 }
 
 
-div{
+main div{
   flex-basis: 70%;
+  flex-grow: 1;
 }
 
 
@@ -132,12 +129,20 @@ footer{
   border: 1px solid;
   margin-top: 20px;
   background-color: rgb(193, 154, 107);
+  border-radius: 30px 30px 0px 0px;
 }
 
 footer img{
   height: 100px;
 }
 
+footer p{
+  margin: 2px;
+}
+
+footer ul{
+  margin: 2px;
+}
 
 header img{
   width: 50px;

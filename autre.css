@@ -73,9 +73,10 @@ body {
  #desc{
   border: 1px solid;
   box-shadow: 5px 5px 10px gray;
-  margin: 10px;
+  margin: 5px;
   border-radius: 20px;
-  padding: 5px;
+  padding: 10px;
+  background-color: lightblue;
  }
  
  article{
@@ -126,12 +127,20 @@ body {
    border: 1px solid;
    margin-top: 20px;
    background-color: rgb(193, 154, 107);
+   border-radius: 30px 30px 0px 0px;
  }
  
  footer img{
    height: 100px;
  }
  
+ footer p{
+  margin: 2px;
+}
+
+footer ul{
+  margin: 2px;
+}
  
  header img{
    width: 50px;
